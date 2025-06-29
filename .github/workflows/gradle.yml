@@ -2,6 +2,9 @@ name: Build AAPS
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - 3.2.0.4
 
 jobs:
   build:
